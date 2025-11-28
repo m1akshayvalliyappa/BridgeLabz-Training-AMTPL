@@ -1,0 +1,34 @@
+# Visual Studio / .NET
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# NuGet
+*.nupkg
+project.lock.json
+project.assets.json
+project.nuget.cache
+**/*.nuget.g.props
+**/*.nuget.g.targets
+packages/
+
+# IDEs
+.idea/
+.vscode/
+
+# macOS
+.DS_Store
+Thumbs.db
+
+# Build outputs and logs
+*.dll
+*.exe
+*.pdb
+*.log
+
+# Others
+*.db
