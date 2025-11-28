@@ -7,4 +7,14 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Generic\" />
+    <None Remove="Non-Generics\" />
+    <None Remove="Regex:ExceptionHandling\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Generic\" />
+    <Folder Include="Non-Generics\" />
+    <Folder Include="Regex:ExceptionHandling\" />
+  </ItemGroup>
 </Project>
