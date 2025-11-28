@@ -5,6 +5,19 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <StartupObject>Encapsulation</StartupObject>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Abstraction\" />
+    <None Remove="Inheritance\" />
+    <None Remove="Polymorphism\" />
+    <None Remove="Encapsulation\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Abstraction\" />
+    <Folder Include="Inheritance\" />
+    <Folder Include="Polymorphism\" />
+    <Folder Include="Encapsulation\" />
+  </ItemGroup>
 </Project>
